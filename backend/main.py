@@ -23,11 +23,7 @@ def home():
 @app.post("/simulate")
 async def simulate(payload: dict):
 
-    # 1️⃣ Run the simulation using the parameters from frontend
     sim_result = run_simulation(payload)
 
-    # 2️⃣ Convert simulation result to a structure the frontend understands
     output = build_frontend_payload(sim_result)
-
-    # 3️⃣ Return the final packaged response
     return output
