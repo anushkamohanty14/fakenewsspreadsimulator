@@ -143,7 +143,7 @@ Try experimenting with:
 
 ---
 
-## Team BallBusters
+## Meet the team
 
 * **Manogna** — UI/UX, frontend, backend and frontend integration
 * **Anushka** — Spread model logic, research
