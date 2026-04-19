@@ -30,7 +30,7 @@ function runSimulation() {
         network_type: "random"
     };
 
-    fetch("https://fakenews-backend.onrender.com/simulate", {   // FastAPI default port
+    fetch("https://fakenewsspreadsimulator.onrender.com/simulate", {   // FastAPI default port
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(params)
